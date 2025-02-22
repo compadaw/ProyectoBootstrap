@@ -6,7 +6,18 @@ div {
 }
 
 .ej-4-header {
+    /* xs */
     background-color: orange;
+
+    /* sm */
+    @media (width >= 576px) {
+        background-color: cyan;
+    }
+
+    /* md */
+    @media (width >= 768px) {
+        background-color: green;
+    }
 }
 
 .ej-4-col1 {
@@ -14,11 +25,23 @@ div {
 }
 
 .ej-4-col2 {
+    /* xs */
     background-color: cyan;
+
+    /* sm */
+    @media (width >= 576px) {
+        background-color: red;
+    }
 }
 
 .ej-4-col3 {
+    /* xs */
     background-color: red;
+
+    /* sm */
+    @media (width >= 576px) and (width < 768px) {
+        background-color: green;
+    }
 }
 
 .ej-4-footer {
