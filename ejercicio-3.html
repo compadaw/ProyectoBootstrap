@@ -17,7 +17,6 @@
             <div class="col bg-success">Header</div>
         </div>
 
-        <!-- En la segunda fila (que contiene 4 columnas con 1, 2, 3 y 4) para forzar el cambio de fila se puede añadir un elemento entre la 2ª y la 3ª columna que solo sea visible cuando la pantalla sea mediana o grande (md, lg o xl) y que aplique la clase .w-100 de Bootstrap. -->
         <div class="row">
             <div class="col-6 col-sm-3 offset-md-3 bg-primary">1</div>
             <div class="col-6 col-sm-3 bg-primary">2</div>
@@ -28,12 +27,10 @@
             <div class="col-6 col-sm-3 offset-md-6 bg-primary">4</div>
         </div>
 
-        <!-- La fila azul claro en realidad son 3 filas distintas con clases para que solo se muestren en dichos tamaños de pantalla. -->
         <div class="row">
             <div class="col d-none d-sm-block d-md-none bg-info">Tablet</div>
         </div>
 
-        <!-- El orden de la tercera fila (con a, b, c, d) se ha alterado para las disposiciones de pantalla grandes (md, lg y xl) usando las clases de bootstrap order-*. -->
         <div class="row">
             <div class="col-6 col-sm-3 order-md-4 bg-light">a</div>
             <div class="col-6 col-sm-3 order-md-3 bg-light">b</div>
@@ -49,13 +46,11 @@
             <div class="col d-none d-md-block bg-info">Desktop</div>
         </div>
 
-        <!-- En la 5ª fila naranja se ha aplicado un cambio de orden y un offset para las pantallas grandes y medianas (md, lg y xl). Además, cuando la pantalla sea tamaño móvil se deberá de ocultar una de sus columnas. -->
         <div class="row justify-content-md-center">
             <div class="col-sm-6 col-md-3 order-md-2 bg-warning">:D</div>
             <div class="col-sm-6 col-md-3 d-none d-sm-block order-md-1 bg-warning">:(</div>
         </div>
 
-        <!-- La última fila se deberá de ocultar solamente cuando la pantalla sea tamaño móvil. -->
         <div class="row">
             <div class="col d-none d-sm-block bg-success">Footer</div>
         </div>
